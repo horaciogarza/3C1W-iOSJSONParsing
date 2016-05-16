@@ -12,6 +12,7 @@
 		477BB4E51CE598A2009C4C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477BB4E31CE598A2009C4C34 /* Main.storyboard */; };
 		477BB4E71CE598A2009C4C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477BB4E61CE598A2009C4C34 /* Assets.xcassets */; };
 		477BB4EA1CE598A2009C4C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477BB4E81CE598A2009C4C34 /* LaunchScreen.storyboard */; };
+		47B8CDED1CE6FFD8001E2611 /* JSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B8CDEC1CE6FFD8001E2611 /* JSONViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		477BB4E61CE598A2009C4C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		477BB4E91CE598A2009C4C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		477BB4EB1CE598A2009C4C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B8CDEC1CE6FFD8001E2611 /* JSONViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONViewController.swift; path = ../JSONViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		477BB4DE1CE598A2009C4C34 /* JSONParsing */ = {
 			isa = PBXGroup;
 			children = (
+				47B8CDEC1CE6FFD8001E2611 /* JSONViewController.swift */,
 				477BB4DF1CE598A2009C4C34 /* AppDelegate.swift */,
 				477BB4E11CE598A2009C4C34 /* ViewController.swift */,
 				477BB4E31CE598A2009C4C34 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				477BB4E21CE598A2009C4C34 /* ViewController.swift in Sources */,
 				477BB4E01CE598A2009C4C34 /* AppDelegate.swift in Sources */,
+				47B8CDED1CE6FFD8001E2611 /* JSONViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +253,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JSONParsing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HGarzCreations.JSONParsing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JSONParsing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HGarzCreations.JSONParsing;
@@ -286,6 +293,7 @@
 				477BB4F01CE598A2009C4C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
