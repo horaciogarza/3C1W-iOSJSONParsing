@@ -12,6 +12,7 @@
 		477BB4E51CE598A2009C4C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477BB4E31CE598A2009C4C34 /* Main.storyboard */; };
 		477BB4E71CE598A2009C4C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477BB4E61CE598A2009C4C34 /* Assets.xcassets */; };
 		477BB4EA1CE598A2009C4C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477BB4E81CE598A2009C4C34 /* LaunchScreen.storyboard */; };
+		47A4109B1CED141100A0EAE8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A4109A1CED141100A0EAE8 /* Reachability.swift */; };
 		47B8CDED1CE6FFD8001E2611 /* JSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B8CDEC1CE6FFD8001E2611 /* JSONViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		477BB4E61CE598A2009C4C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		477BB4E91CE598A2009C4C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		477BB4EB1CE598A2009C4C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47A4109A1CED141100A0EAE8 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		47B8CDEC1CE6FFD8001E2611 /* JSONViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONViewController.swift; path = ../JSONViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 				477BB4E61CE598A2009C4C34 /* Assets.xcassets */,
 				477BB4E81CE598A2009C4C34 /* LaunchScreen.storyboard */,
 				477BB4EB1CE598A2009C4C34 /* Info.plist */,
+				47A4109A1CED141100A0EAE8 /* Reachability.swift */,
 			);
 			path = JSONParsing;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				477BB4E21CE598A2009C4C34 /* ViewController.swift in Sources */,
 				477BB4E01CE598A2009C4C34 /* AppDelegate.swift in Sources */,
+				47A4109B1CED141100A0EAE8 /* Reachability.swift in Sources */,
 				47B8CDED1CE6FFD8001E2611 /* JSONViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
